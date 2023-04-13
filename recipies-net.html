@@ -15,13 +15,22 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Raleway:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap"
         rel="stylesheet">
+
+    <!-- JQuery src -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="main.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div id="main-container" class="container">
+        <h1>Search your recipie!</h1>
         <div class="search-container">
             <input type="text" id="primary-inp" class="search-inp" placeholder="Type a dish name here">
-            <button id="primary-btn" class="search-btn">Seacrh</button>
+            <button id="primary-btn" class="search-btn">Search</button>
         </div>
+        <div id="result"></div>
+        <p><span class="error"></span></p>
     </div>
 </body>
 </html>
