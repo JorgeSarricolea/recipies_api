@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Raleway:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'ExtraLight 200', sans-serif;
+    color: #5D4780;
 }
 
 :root {
@@ -14,7 +17,7 @@
     --h3_normalBody: 16px;
     --h3_smallerBody: 12px;
 
-    --generalPadding: 20px;
+    --generalPadding: 30px;
     --generalGap: 20px;
 
     --buttonsRadius: 10px;
@@ -28,12 +31,12 @@ body {
 /* Main Content
 ---------------------*/
 
-.container {
+#main-container {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    width: 60%;
+    width: 40%;
     margin: 20px auto;
     background-color: rgba(116, 109, 128, 0.2);
     border-radius: var(--containerRadius);
@@ -41,7 +44,7 @@ body {
     gap: var(--generalGap);
 }
 
-.search-container {
+#main-container .search-container {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -50,7 +53,7 @@ body {
     margin: 0 auto;
     background-color: rgba(116, 109, 128, 0.2);
     border-radius: 10px;
-    padding: var(--generalPadding);
+    padding: 20px;
     gap: var(--generalGap);
 }
 
@@ -111,23 +114,62 @@ body {
     gap: var(--generalGap);
 }
 
+
+#result p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#ingredients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--generalGap);
+}
+
 img {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     border-radius: var(--containerRadius);
 }
 
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2, h3 {
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.recipie pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.ingredients {
+    padding: var(--generalPadding);
+}
 
 /* Responsive
 ----------------*/
 
 @media only screen and (max-width: 768px) {
-    .container {
+    #main-container {
         width: 90%;
+        padding: 15px;
     }
 
-    .search-container {
+    #main-container .search-container {
         padding: 10px;
     }
 }
