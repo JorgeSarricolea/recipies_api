@@ -73,21 +73,6 @@ body {
     transition: 0.3s ease;
 }
 
-#secondary-btn {
-    border-radius: var(--buttonsRadius);
-    background-color: transparent;
-    border-color: #5D4780;
-    color: #5D4780;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-#secondary-btn:hover {
-    background-color: #5D4780;
-    font-weight: bold;
-    color: #E8DAFF;
-}
-
 #primary-inp {
     background-color: #fff;
     width: 100%;    padding: 10px;
@@ -112,7 +97,6 @@ body {
     justify-content: space-between;
     gap: var(--generalGap);
 }
-
 
 #result p {
     margin-top: 20px;
