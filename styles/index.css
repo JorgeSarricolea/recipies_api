@@ -28,8 +28,7 @@ body {
   background-color: #f1e4dc;
 }
 
-/* Main Content
----------------------*/
+/* Main Content */
 
 #main-container {
   display: flex;
@@ -161,18 +160,17 @@ h3 {
   padding: var(--generalPadding);
 }
 
-.credits h3 {
+/* Footer */
+
+footer {
   text-align: center;
-  font-size: var(--h3_smallerBody);
-  font-weight: lighter;
 }
 
-.credits span {
+footer a {
   font-weight: bold;
 }
 
-/* Responsive
-----------------*/
+/* Responsiveness */
 
 @media only screen and (max-width: 1000px) {
   #main-container {
