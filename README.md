@@ -4,7 +4,7 @@ Online recipe search engine, ideal for those looking to cook.
 
 ## Table of Contents
 
-- [Recipies-NET](#recipies_api)
+- [recipies_api](#recipies_api)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
@@ -19,20 +19,20 @@ This is a recipe search engine obtained through the [MealDB API](https://www.the
 
 ## Getting Started
 
-To get started with "Recipies-NET", follow these simple steps:
+To get started with "recipies_api", follow these simple steps:
 
 ### Installation
 
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/JorgeSarricolea/Recipies-NET
+git clone https://github.com/JorgeSarricolea/recipies_api
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd Recipies-NET
+cd recipies_api
 ```
 
 3. Open the index.html file with Live Server (In VSCode) or with your favorite browser.
