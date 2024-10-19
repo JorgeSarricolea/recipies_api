@@ -1,10 +1,10 @@
-# [Recipies-NET](https://recipies-net.netlify.app)
+# [Recipies_api](https://recipies-net.netlify.app)
 
 Online recipe search engine, ideal for those looking to cook.
 
 ## Table of Contents
 
-- [Recipies-NET](#recipies-net)
+- [Recipies-NET](#recipies_api)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
